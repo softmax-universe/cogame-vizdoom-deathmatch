@@ -1,4 +1,4 @@
-# CI for a Coworld game repo (Metta-AI/cogame-vizdoom-deathmatch).
+# CI for a Coworld game repo (softmax-universe/cogame-vizdoom-deathmatch).
 #
 # Goes to:  .github/workflows/ci.yml  in the coworld repo.
 # Substitute: vizdoom-deathmatch  (lowercase game slug, e.g. bullwhip)
