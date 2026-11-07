@@ -1,4 +1,4 @@
-# CI for a Coworld game repo (Metta-AI/cogame-vizdoom-deathmatch).
+# CI for a Coworld game repo (softmax-universe/cogame-vizdoom-deathmatch).
 #
 # Goes to:  .github/workflows/ci.yml  in the coworld repo.
 # Substitute: vizdoom-deathmatch  (lowercase game slug, e.g. bullwhip)
@@ -240,7 +240,7 @@ jobs:
   # container (Dockerfile.replay-viewer) because the runner has no emcc.
   # ---------------------------------------------------------------------
   wasm-viewer:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 45
     # The bundle is EXECUTED here, not merely built, and it is executed against
     # the replay docker-smoke just produced -- hence the dependency.
